@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Template Bootstrap Page" />
+    <meta name="keywords" content="Front-End, HTML, CSS, Bootstrap>
+    <meta name="author" content="Ahmed Nabel" />
+    <title>Template_Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a940ee886d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div class="landing-wrapper">
+      <header class="pt-4">
+        <nav
+          class="navbar navbar-expand-lg p-0 navbar-white"
+          data-bs-theme="dark"
+        >
+          <div class="container custom-container px-3 px-sm-0">
+            <a class="navbar-brand p-0" href="#">Brainwave.io</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navmenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+              <ul class="navbar-nav ms-auto d-flex gap-5">
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Demos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link p-0" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section
+        id="landing"
+        class="min-vh-100 d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="container d-flex flex-column gap-4 text-center px-3 px-sm-0 custom-landing-container"
+        >
+          <p
+            class="text-uppercase custom-paragraph-color"
+            style="font-size: 0.8em; font-weight: 700; letter-spacing: 1.63px"
+          >
+            shared space in your town
+          </p>
+          <h1
+            style="
+              font-size: 3.75em;
+              font-weight: 700;
+              line-height: 3.8rem;
+              letter-spacing: -2px;
+            "
+          >
+            Rent desk space in a
+            <span class="d-inline d-lg-block">shared office environment </span>
+          </h1>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-between bg-white rounded p-4"
+          >
+            <select
+              class="form-select mb-3 mb-lg-0"
+              style="max-width: 250px"
+              aria-label="Default select example"
+            >
+              <option selected disabled>Select Location</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select
+              class="form-select mb-3 mb-lg-0"
+              style="max-width: 250px"
+              aria-label="Default select example"
+            >
+              <option selected disabled>Select Date</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <button
+              type="button"
+              style="font-weight: 700"
+              class="btn btn-primary btn-custom"
+            >
+              Search Place
+            </button>
+          </div>
+          <p>Take virtual tour of our spaces</p>
+        </div>
+      </section>
+    </div>
+    <main>
+      <section id="testimonial" class="border-bottom">
+        <div
+          class="container d-none d-md-flex gap-4 justify-content-between text-center px-3 px-sm-0"
+        >
+          <div>
+            <h2 style="font-size: 3em; font-weight: 700" class="mb-3">06</h2>
+            <p class="custom-paragraph-testimonial">
+              Offices are available on
+              <span class="d-inline d-lg-block">different countries</span>
+            </p>
+          </div>
+          <div>
+            <h2 h2 style="font-size: 3em; font-weight: 700" class="mb-3">
+              238
+            </h2>
+            <p class="custom-paragraph-testimonial">
+              Seats are available right now
+              <span class="d-inline d-lg-block">with dedicated support</span>
+            </p>
+          </div>
+          <div>
+            <h2 h2 style="font-size: 3em; font-weight: 700" class="mb-3">
+              1,395
+            </h2>
+            <p class="custom-paragraph-testimonial">
+              People are using our co-work
+              <span class="d-inline d-lg-block">spaces right now</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="locations">
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center gap-4 text-center px-3 px-sm-0 custom-container-locations"
+        >
+          <h2 style="font-size: 3em; font-weight: 700">Popular locations</h2>
+          <p class="custom-paragraph-locations mb-5 pb-5">
+            With lots of unique blocks, you can easily build a page
+            <span class="d-inline d-lg-block">without any coding</span>
+          </p>
+          <div class="row g-5 justify-content-center w-100">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div
+                class="text-center workspace-card bg-white rounded-4 hover-effect"
+              >
+                <img
+                  src="assets/images/locations/Img (1).png"
+                  class="img-fluid"
+                  alt="Beauview"
+                />
+                <h5
+                  class="mt-2 mb-2"
+                  style="font-size: 1.5rem; font-weight: 700; color: black"
+                >
+                  Beauview
+                </h5>
+                <p class="text-muted small mb-0">37 seats</p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="text-center workspace-card bg-white rounded-4">
+                <img
+                  src="assets/images/locations/Img.png"
+                  class="img-fluid"
+                  alt="Haleyborough"
+                />
+                <h5
+                  class="mt-5 mb-2"
+                  style="font-size: 1.5rem; font-weight: 700; color: black"
+                >
+                  Haleyborough
+                </h5>
+                <p class="text-muted small mb-0">12 seats</p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="text-center workspace-card bg-white rounded-4">
+                <img
+                  src="assets/images/locations/Img.jpg"
+                  class="img-fluid"
+                  alt="Jeromyshire"
+                />
+                <h5
+                  class="mt-5 mb-2"
+                  style="font-size: 1.5rem; font-weight: 700; color: black"
+                >
+                  Jeromyshire
+                </h5>
+                <p class="text-muted small mb-0">28 seats</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="hero">
+        <div class="container px-3 px-sm-0">
+          <div
+            class="row justify-content-center justify-content-md-start text-center text-md-start gx-5 w-100 mx-auto"
+            style="padding-block: 8.8em"
+          >
+            <div class="col-md-6 mb-4 mb-md-0">
+              <h2
+                style="
+                  font-size: 3em;
+                  font-weight: 700;
+                  margin-block-end: 1.2rem;
+                "
+              >
+                Work around very<span class="d-inline d-lg-block">
+                  talented people.</span
+                >
+              </h2>
+              <p class="custom-paragraph-hero pb-5">
+                With lots of unique blocks, you can easily build
+                <span class="d-inline d-lg-block"
+                  >a page easily without any coding.</span
+                >
+              </p>
+              <img
+                src="assets/images/features/Img 1.jpg"
+                class="img-fluid rounded-4 shadow-sm"
+                alt="Image 1"
+              />
+            </div>
+
+            <div class="col-md-6 d-flex flex-column gap-3">
+              <img
+                src="assets/images/features/Img 2.jpg"
+                class="img-fluid rounded-4 shadow-sm"
+                alt="Image 2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features" class="bg-white" style="padding-block: 7.5em">
+        <div class="container px-3 px-sm-0">
+          <div class="row text-center">
+            <!-- Feature 1 -->
+            <div class="col-md-4 mb-4 mb-md-0">
+              <img
+                src="assets/images/features/desk-drawer.jpg"
+                alt="Desk Icon"
+                class="mb-3"
+              />
+              <h6 class="fw-bold">Dedicated Desk</h6>
+              <p class="text-muted small">
+                With lots of unique blocks, you can easily build a page without
+                coding. Build your next landing page.
+              </p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-md-4 mb-4 mb-md-0">
+              <img
+                src="assets/images/features/wifi.jpg"
+                alt="Internet Icon"
+                class="mb-3"
+              />
+              <h6 class="fw-bold">High Speed Internet</h6>
+              <p class="text-muted small">
+                With lots of unique blocks, you can easily build a page without
+                coding. Build your next landing page.
+              </p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-md-4">
+              <img
+                src="assets/images/features/mug.jpg"
+                alt="Coffee Icon"
+                class="mb-3"
+              />
+              <h6 class="fw-bold">Unlimited Coffee</h6>
+              <p class="text-muted small">
+                With lots of unique blocks, you can easily build a page without
+                coding. Build your next landing page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="support" class="text-white">
+        <div class="container px-3 px-sm-0">
+          <div
+            class="row align-items-center justify-content-between g-5 w-100 mx-auto"
+          >
+            <div
+              class="col-md-6 justify-content-center justify-content-md-start text-center text-md-start"
+            >
+              <h2
+                style="
+                  font-size: 3em;
+                  font-weight: 700;
+                  margin-block-end: 1.2rem;
+                "
+              >
+                We are always here<span class="d-inline d-lg-block">
+                  for your backup.</span
+                >
+              </h2>
+              <p class="custom-paragraph-support pb-5">
+                We share common trends and strategies for
+                <span class="d-inline d-lg-block"
+                  >creating & improving your rental income.</span
+                >
+              </p>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="row text-start">
+                    <div class="col-1 d-none d-lg-block">
+                      <img
+                        src="assets/images/support/Icon.png"
+                        alt="Internet Icon"
+                        style="width: 27px; height: auto"
+                      />
+                    </div>
+                    <div class="col-11">
+                      <h6 class="fw-bold">Noise Free Locations</h6>
+                      <p class="custom-paragraph-support">
+                        With lots of unique blocks, you can easily<span
+                          class="d-inline d-lg-block"
+                        >
+                          build a page without coding.</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="row text-start">
+                    <div class="col-1 d-none d-lg-block">
+                      <img
+                        src="assets/images/support/Icon.png"
+                        alt="Internet Icon"
+                        style="width: 27px; height: auto"
+                      />
+                    </div>
+                    <div class="col-11">
+                      <h6 class="fw-bold">24/7 Hour Support</h6>
+                      <p class="custom-paragraph-support">
+                        With lots of unique blocks, you can easily<span
+                          class="d-inline d-lg-block"
+                        >
+                          build a page without coding.</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button custom-accordion-header"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      How to setup Shade Pro?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body custom-paragraph-hero">
+                      With lots of unique blocks, you can easily build a page
+                      without coding. Build your next landing page.Integer ut
+                      obe ryn.Sed feugiat vitae turpis a parta.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button custom-accordion-header collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Can i use Shade Pro for my clients?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body custom-paragraph-hero">
+                      With lots of unique blocks, you can easily build a page
+                      without coding. Build your next landing page.Integer ut
+                      obe ryn.Sed feugiat vitae turpis a parta.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button custom-accordion-header collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      How often do you release update?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body custom-paragraph-hero">
+                      With lots of unique blocks, you can easily build a page
+                      without coding. Build your next landing page.Integer ut
+                      obe ryn.Sed feugiat vitae turpis a parta.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button custom-accordion-header collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      How can i access to old versions?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body custom-paragraph-hero">
+                      With lots of unique blocks, you can easily build a page
+                      without coding. Build your next landing page.Integer ut
+                      obe ryn.Sed feugiat vitae turpis a parta.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="updates" class="text-center border-bottom">
+        <div class="container px-3 px-sm-0" style="max-width: 600px">
+          <h2 style="font-size: 3em; font-weight: 700" class="mb-3">
+            Get latest updates
+          </h2>
+          <p class="text-muted mb-5" style="font-size: 1.2em">
+            With lots of unique blocks, you can easily build a page<span
+              class="d-inline d-lg-block"
+            >
+              without coding. Build your next landing page.</span
+            >
+          </p>
+
+          <form>
+            <div class="row mx-auto" style="max-width: 370px">
+              <div class="col-12 mb-3">
+                <input
+                  type="email"
+                  class="form-control py-3"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <button type="submit" class="col-12 btn btn-primary py-3 w-100">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <p class="small text-muted mt-3">
+            We'll never share your details with third parties.
+            <span class="d-inline d-lg-block"
+              >View our Privacy Policy for more info.</span
+            >
+          </p>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="container px-3 px-sm-0">
+          <div class="row px-0 gx-3 text-start" style="padding-block: 7em">
+            <div class="col-6 col-md-2 mb-4">
+              <h6 class="mb-4 custom-heading-footer">Company</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >About us</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Contact us</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Careers</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted">Press</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-6 col-md-2 mb-4">
+              <h6 class="mb-4 custom-heading-footer">Product</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Features</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted">News</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Help desk</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Support</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-6 col-md-2 mb-4">
+              <h6 class="mb-4 custom-heading-footer">Services</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Digital Marketing</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Content Writing</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >SEO for Business</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >UI Design</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-6 col-md-2 mb-4">
+              <h6 class="mb-4 custom-heading-footer">Legal</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none text-muted"
+                    >Return Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 5 -->
+            <div class="col-12 col-md-4 mb-4">
+              <h6 class="mb-4 custom-heading-footer">Contact us</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a
+                    href="mailto:support@brandwave.io"
+                    class="text-decoration-none fw-bold text-primary"
+                    >support@brandwave.io</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="tel:+13339434391435"
+                    class="text-decoration-none fw-bold text-primary"
+                    >+133-394-3439-1435</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Bottom Row -->
+          <div
+            class="d-md-flex border-top justify-content-between align-items-center py-4 text-center text-md-start"
+          >
+            <p class="mb-3 mb-md-0 small text-muted">
+              © 2024 Copyright, All Rights Reserved, Made by
+              <a href="#" class="text-decoration-none">Seju_ui_ux</a> with 💚
+            </p>
+            <div>
+              <a href="#" class="text-muted me-3"
+                ><i class="fa-brands fa-twitter" style="font-size: 1.2rem"></i
+              ></a>
+              <a href="#" class="me-3"
+                ><i
+                  class="fa-brands fa-square-facebook"
+                  style="font-size: 1.2rem"
+                ></i
+              ></a>
+              <a href="#" class="text-muted me-3"
+                ><i class="fa-brands fa-instagram" style="font-size: 1.2rem"></i
+              ></a>
+              <a href="#" class="text-muted"
+                ><i class="fa-brands fa-linkedin" style="font-size: 1.2rem"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

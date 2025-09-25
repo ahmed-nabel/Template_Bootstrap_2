@@ -1,0 +1,141 @@
+@import url("../styles/colors.css");
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/fonts/Rubik-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../assets/fonts/Gilroy-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../assets/fonts/Gilroy-Regular.ttf");
+  font-weight: 400;
+}
+
+body {
+  font-family: "Gilroy-Regular";
+  font-weight: 400;
+  font-size: 0.6rem !important; /* default for mobile */
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1rem !important;
+  }
+}
+.landing-wrapper {
+  position: relative;
+  background-image: url("/assets/images/landing/BG.jpg");
+  background-size: cover;
+  background-position: center;
+  color: hsl(var(--white-color)) !important;
+  min-height: 100vh;
+}
+
+.navbar-white * {
+  color: hsl(var(--white-color)) !important;
+}
+
+.navbar-brand {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 100%;
+}
+
+.navbar-nav {
+  font-family: "Gilroy-Bold";
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.btn-custom {
+  padding-block: 0.6rem;
+  padding-inline: 2.8rem;
+  max-width: 200px;
+}
+
+@media (min-width: 1200px) {
+  .custom-container {
+    max-width: 1100px !important;
+  }
+  .custom-landing-container {
+    max-width: 770px !important;
+  }
+}
+
+.custom-paragraph-color {
+  color: hsl(var(--landing-green));
+}
+
+.custom-paragraph-testimonial,
+.custom-paragraph-locations,
+.custom-paragraph-hero {
+  font-size: 1.2rem;
+  line-height: 2em;
+  letter-spacing: -0.2px;
+  color: hsla(var(--paragraph-grey), 0.7);
+}
+
+.custom-container-locations {
+  padding-block: 6.125em 8em;
+}
+
+.custom-paragraph-support {
+  font-size: 1.2rem;
+  line-height: 2em;
+  letter-spacing: -0.2px;
+  color: hsla(var(--white-color), 0.65);
+}
+
+/* Apply hover effect only to first card */
+
+@media (min-width: 576px) {
+  #testimonial {
+    padding-block: 4.5em;
+  }
+  .workspace-card.hover-effect {
+    transform: scaleY(0.9);
+  }
+  #hero {
+    background: linear-gradient(
+      to bottom,
+      hsl(var(--heroBg-light)) 65%,
+      white 35%
+    );
+  }
+}
+#support {
+  padding-block: 9em;
+  background-color: hsl(var(--supportBg-dark));
+}
+
+.custom-accordion-header {
+  font-weight: 700 !important;
+  font-size: 1.2rem !important;
+  line-height: 2rem;
+}
+
+#updates {
+  padding-block: 7em;
+}
+
+.custom-heading-footer {
+  color: hsl(var(--supportBg-dark));
+}
