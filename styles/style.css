@@ -41,7 +41,7 @@ body {
 }
 .landing-wrapper {
   position: relative;
-  background-image: url("/assets/images/landing/BG.jpg");
+  background-image: url("../assets/images/landing/BG.jpg");
   background-size: cover;
   background-position: center;
   color: hsl(var(--white-color)) !important;
